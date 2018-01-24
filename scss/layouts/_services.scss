@@ -8,30 +8,26 @@
     @media (max-width: 767px) {
       display: flex;
       flex-direction: column-reverse;
-
-      .services__aside {
-        margin-bottom: 3rem;
-        height: 500px;
-        background-size: 70%;
-      }
     }
   }
 
   .services__aside {
-    height: 550px;
-    background-image: url("../img/services-img.png");
-    background-repeat: no-repeat;
-    background-size: 83%;
-    background-position: center;
-    display: flex;
-    align-items: center;
-
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 3rem;
+    }
     &--text {
-      font-size: 5rem;
-      width: 100%;
-      margin: 0;
-      padding: 0;
+      font-size: 4rem;
       text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+
     }
   }
 
@@ -43,17 +39,21 @@
   .services__item {
     @media (max-width: 767px) {
       height: 70px;
+      max-width: 400px;
     }
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
     height: 100px;
     background: #ffffff;
     box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     max-width: 450px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     @media (min-width: 767px) {
       &:hover {
         transform: scale(1.1);
+
         .services__icon {
           cursor: pointer;
           animation-name: bounce;
