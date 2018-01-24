@@ -62,6 +62,7 @@
         </div>
 
       </div>
+      <a href="#about"><img src="img/home-scrool.png" alt=""  class="home-scrool"></a>
     </div>
   </section>
   <!-- About -->
@@ -265,6 +266,16 @@
         window.location.hash = this.hash;
       });
 
+    });
+
+  </script>
+  <script>
+    $(document).on('click', 'a[href^="#"]', function(event) {
+      event.preventDefault();
+
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - 80
+      }, 400);
     });
 
   </script>
