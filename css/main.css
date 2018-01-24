@@ -19,21 +19,21 @@ html {
   height: 100vh;
   background-image: url("../img/home-bg.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   align-items: center;
 }
 
 @media (max-width: 767px) {
-  /* line 21, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/base/_base.scss */
+  /* line 22, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/base/_base.scss */
   .home__wrapper {
-    margin: 0 40px;
     text-align: center;
+    padding: 0 5%;
   }
 }
 
-/* line 28, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/base/_base.scss */
+/* line 30, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/base/_base.scss */
 .border {
   border: 1px solid red;
 }
@@ -679,7 +679,7 @@ h4 {
     /* (80px - line-height of 27px) / 2 = 26.5px */
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 5px 13px;
+    padding: 5px 10px;
     line-height: 35px;
   }
   /* line 25, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */

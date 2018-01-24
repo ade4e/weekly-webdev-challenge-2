@@ -11,17 +11,19 @@ html {
   height: 100vh;
   background-image: url("../img/home-bg.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 
-  background-attachment: fixed;
+
   display: flex;
   align-items: center;
 }
 
 .home__wrapper {
   @media (max-width: 767px) {
-    margin: 0 40px;
+
     text-align: center;
+padding: 0 5%;
   }
 }
 
