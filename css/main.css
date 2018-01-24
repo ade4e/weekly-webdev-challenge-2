@@ -16,7 +16,7 @@ html {
 /* line 9, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/base/_base.scss */
 .home {
   background-color: #dedede;
-  height: 100%;
+  height: 100vh;
   background-image: url("../img/home-bg.jpg");
   background-size: cover;
   background-position: center;
