@@ -1,0 +1,32 @@
+.about_us {
+  padding: 3rem 0;
+  position: relative;
+  background-color: #00afaf;
+  /* .img {
+    background-image: url("http://cdn4.rosannadavisonnutrition.com/wp-content/uploads/2016/02/Fresh-Raspberries.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  &__img {
+    width: 87%;
+    @media (max-width: 767px) {
+      width: 60%;
+      margin-bottom: 3rem;
+    }
+
+    margin-left:auto;
+    margin-right: auto;
+  }
+  &__txt {
+@media (max-width: 767px) {
+  text-align: center;
+}
+  }
+  &__wrap {
+    @media (min-width: 767px) {
+
+    display: flex;
+    align-items: center;
+  }
+  }
+}

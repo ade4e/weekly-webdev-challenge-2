@@ -1,0 +1,22 @@
+.gallery {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #ffe92f;
+
+  h1,
+  p {
+    color: black;
+  }
+
+  .gallery__item {
+    margin: 0 auto 30px;
+    @media (max-width: 767px) {
+      max-width: 436px;
+      height: auto;
+    }
+
+    .img-responsive {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
+}

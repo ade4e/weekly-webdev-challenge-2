@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  font-family: "Raleway", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.home {
+  background-color: #dedede;
+  height: 100vh;
+  background-image: url("../img/home-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.home__wrapper {
+  @media (max-width: 767px) {
+    margin: 0 40px;
+    text-align: center;
+  }
+}
+
+.border {
+  border: 1px solid red;
+}

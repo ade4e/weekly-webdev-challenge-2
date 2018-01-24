@@ -1,0 +1,106 @@
+.blog {
+padding: 3rem 0;
+  background-color: #b07cf7;
+  text-align: center;
+  color: white;
+
+  .row {
+  margin-bottom: 30px;
+  }
+
+  .imageHolder1 {
+    @media (max-width: 767px) {
+      height: 242px;
+    }
+    position: relative;
+    height: 312px;
+    background-image: url("../img/blog1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+  }
+
+  .imageHolder2 {
+    @media (max-width: 767px) {
+      height: 242px;
+    }
+    position: relative;
+    height: 312px;
+    background-image: url("../img/blog2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+  }
+
+  .imageHolder3 {
+    @media (max-width: 767px) {
+      height: 242px;
+    }
+    position: relative;
+    height: 312px;
+    background-image: url("../img/blog3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 -110px 108px -49px rgba(0, 0, 0, 0.75);
+  }
+
+  .caption {
+    position: absolute;
+    width: 90%;
+    bottom: 45px;
+    left: 0;
+    color: #ffffff;
+    margin-left: 5%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .caption2 {
+    position: absolute;
+    width: 90%;
+    margin-bottom: 5%;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    margin-left: 5%;
+    text-align: left;
+    font-weight: light;
+    font-size: 0.7em;
+    opacity: 1;
+  }
+
+  .imageHolder__label--text {
+    position: absolute;
+    border-radius: 5px;
+    left: 25px;
+    top: 25px;
+    font-size: 1.3em;
+    font-weight: 900;
+    color: white;
+    line-height: 26px;
+    padding: 2px 4px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .imageHolder__label--nr {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+}
+
+.blog-btn {
+  padding: 15px 55px;
+  border-radius: 0;
+  background-color: #f72b3b;
+  font-size: 22px;
+}

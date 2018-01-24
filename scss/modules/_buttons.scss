@@ -1,0 +1,50 @@
+.btn {
+  padding: 10px 40px;
+  border-radius: 0;
+  color: white;
+  font-size: 22px;
+  font-family: Raleway;
+  font-weight: 300;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.subscribe {
+  .btn {
+    background-color: #94B33A;
+    padding: 10px 25px;
+    margin-left: 25px;
+    font-size: 20px;
+
+    &:hover {
+      background-color: #81a025;
+      color: white;
+    }
+  }
+}
+
+.gallery {
+  .btn {
+    background-color: #597f9c;
+
+    &:hover {
+      background-color: #85aac6;
+      color: white;
+    }
+  }
+}
+
+.contact__btn {
+
+  background: rgba(0,196,196,0.5);
+  border-radius: 0;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  border: none;
+
+
+  &:hover {
+    background-color: #00c4c4;
+    transition: linear 0.3s;
+  }
+}

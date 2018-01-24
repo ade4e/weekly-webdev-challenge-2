@@ -1,0 +1,47 @@
+.footer {
+  background-color: #262626;
+  text-align: center;
+  height: 90px;
+  color: #B9B9B9;
+
+  &__text {
+    line-height: 90px;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+
+
+    .footer__brand {
+      font-family: $logo-font;
+      font-size: 1.5rem;
+      color: #B9B9B9;
+      display: block;
+
+      &:hover {
+        color: #a9a9a9;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@include respond-to(mobile){
+  .footer{
+    height: auto;
+    padding: 16px 0;
+    &__text{
+      line-height: 2.3rem;
+    }
+  }
+}
+@include respond-to(small){
+  .footer{
+    &__text {
+      &:nth-child(1) {
+        text-align: left;
+      }
+      &:nth-child(3) {
+        text-align: right;
+      }
+    }
+  }
+}
