@@ -947,14 +947,14 @@ nav.navbar {
 .contact {
   background-image: url("../img/contact-bg.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   color: #262626;
   text-align: center;
   padding: 2rem 0;
 }
 
-/* line 11, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+/* line 10, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 .contact .form-control {
   background-color: #00c4c4;
   background: rgba(0, 196, 196, 0.5);
@@ -964,39 +964,39 @@ nav.navbar {
   height: 50px;
 }
 
-/* line 19, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+/* line 18, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 .contact .form-control:focus {
   background-color: #00c4c4;
   border-left: 5px solid #355b82;
   transition: linear 0.3s;
 }
 
-/* line 26, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+/* line 25, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 .contact input[type="email"]::-moz-placeholder,
 .contact input[type="number"]::-moz-placeholder,
 .contact input[type="text"]::-moz-placeholder {
   color: white;
 }
 
-/* line 32, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+/* line 31, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 .contact #contact__textarea::-moz-placeholder {
   /* Firefox 19+ */
   color: white;
 }
 
-/* line 38, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+/* line 37, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 .contact__aside {
   text-align: left;
 }
 
 @media (max-width: 767px) {
-  /* line 38, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+  /* line 37, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
   .contact__aside {
     text-align: center;
   }
 }
 
-/* line 46, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
+/* line 45, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 textarea {
   resize: none;
   overflow: auto;
