@@ -19,7 +19,7 @@
     /* (80px - line-height of 27px) / 2 = 26.5px */
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 5px 10px;
+    padding: 5px 13px;
     line-height: 35px;
 
     &::before {
@@ -53,8 +53,8 @@ nav.navbar.shrink {
 }
 
 nav.navbar {
-  padding: 45px 0;
+  padding: 25px 0;
   // Animation
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }

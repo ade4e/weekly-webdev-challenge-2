@@ -679,7 +679,7 @@ h4 {
     /* (80px - line-height of 27px) / 2 = 26.5px */
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 5px 10px;
+    padding: 5px 13px;
     line-height: 35px;
   }
   /* line 25, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
@@ -713,9 +713,9 @@ nav.navbar.shrink {
 
 /* line 55, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
 nav.navbar {
-  padding: 45px 0;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  padding: 25px 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 /* line 1, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_footer.scss */
