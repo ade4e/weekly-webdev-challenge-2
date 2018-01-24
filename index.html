@@ -190,7 +190,7 @@
     </div>
   </section>
   <!-- Contact -->
-  <section class="contact" id="#contact">
+  <section class="contact" id="contact">
     <div class="container">
       <h1>Contact</h1>
       <p>For new projects, ideas, business or anything<br /> you'd like to discuss, contact with me!</p>
@@ -257,8 +257,8 @@
 
       // animate
       $('html, body').animate({
-        scrollTop: $(this.hash).offset().top
-      }, 200, function() {
+        scrollTop: $(this.hash).offset().top - 80
+      }, 500, function() {
 
         // when done, add hash to url
         // (default click behaviour)
