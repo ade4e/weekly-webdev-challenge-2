@@ -10,7 +10,9 @@ padding: 3rem 0;
 
   .imageHolder1 {
     @media (max-width: 767px) {
-      height: 242px;
+      height: 320px;
+      margin: 0 4%;
+      margin-bottom: 2rem;
     }
     position: relative;
     height: 312px;
@@ -25,7 +27,9 @@ padding: 3rem 0;
 
   .imageHolder2 {
     @media (max-width: 767px) {
-      height: 242px;
+      height: 320px;
+      margin: 0 4%;
+      margin-bottom: 2rem;
     }
     position: relative;
     height: 312px;
@@ -40,7 +44,9 @@ padding: 3rem 0;
 
   .imageHolder3 {
     @media (max-width: 767px) {
-      height: 242px;
+      height: 320px;
+      margin: 0 4%;
+
     }
     position: relative;
     height: 312px;

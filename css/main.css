@@ -844,11 +844,13 @@ nav.navbar {
 @media (max-width: 767px) {
   /* line 11, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
   .blog .imageHolder1 {
-    height: 242px;
+    height: 320px;
+    margin: 0 4%;
+    margin-bottom: 2rem;
   }
 }
 
-/* line 26, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 28, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog .imageHolder2 {
   position: relative;
   height: 312px;
@@ -862,13 +864,15 @@ nav.navbar {
 }
 
 @media (max-width: 767px) {
-  /* line 26, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+  /* line 28, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
   .blog .imageHolder2 {
-    height: 242px;
+    height: 320px;
+    margin: 0 4%;
+    margin-bottom: 2rem;
   }
 }
 
-/* line 41, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 45, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog .imageHolder3 {
   position: relative;
   height: 312px;
@@ -882,13 +886,14 @@ nav.navbar {
 }
 
 @media (max-width: 767px) {
-  /* line 41, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+  /* line 45, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
   .blog .imageHolder3 {
-    height: 242px;
+    height: 320px;
+    margin: 0 4%;
   }
 }
 
-/* line 56, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 62, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog .caption {
   position: absolute;
   width: 90%;
@@ -901,7 +906,7 @@ nav.navbar {
   font-size: 1.2em;
 }
 
-/* line 68, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 74, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog .caption2 {
   position: absolute;
   width: 90%;
@@ -916,7 +921,7 @@ nav.navbar {
   opacity: 1;
 }
 
-/* line 82, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 88, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog .imageHolder__label--text {
   position: absolute;
   border-radius: 5px;
@@ -930,13 +935,13 @@ nav.navbar {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 95, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 101, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog .imageHolder__label--nr {
   font-size: 1.5em;
   font-weight: 700;
 }
 
-/* line 101, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
+/* line 107, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_blog.scss */
 .blog-btn {
   padding: 15px 55px;
   border-radius: 0;
