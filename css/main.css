@@ -713,7 +713,7 @@ nav.navbar.shrink {
 
 /* line 55, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
 nav.navbar {
-  padding: 25px 0;
+  padding: 10px 0;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
