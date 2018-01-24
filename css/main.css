@@ -946,7 +946,6 @@ nav.navbar {
 /* line 1, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_contact.scss */
 .contact {
   background-image: url("../img/contact-bg.png");
-  background-size: cover;
   background-repeat: no-repeat;
   background-size: auto;
   background-attachment: fixed;
