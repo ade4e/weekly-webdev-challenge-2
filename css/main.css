@@ -729,17 +729,16 @@ h4 {
   font-family: "Pacifico", cursive;
   font-size: 2.5rem;
   color: #000 !important;
-  margin-left: 10px;
 }
 
-/* line 15, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+/* line 14, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 16px;
 }
 
 @media (min-width: 768px) {
-  /* line 20, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+  /* line 19, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
   .navbar-nav > li > a {
     /* (80px - line-height of 27px) / 2 = 26.5px */
     margin-top: 20px;
@@ -747,7 +746,17 @@ h4 {
     padding: 5px 13px;
     line-height: 35px;
   }
-  /* line 27, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+}
+
+@media (min-width: 768px) and (min-width: 768px) and (max-width: 991px) {
+  /* line 19, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+  .navbar-nav > li > a {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 30, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
   .navbar-nav > li > a::before {
     content: '';
     display: block;
@@ -756,13 +765,13 @@ h4 {
     background: #ff6033;
     transition: width 0.3s;
   }
-  /* line 36, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+  /* line 39, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
   .navbar-nav > li > a:hover::before {
     width: 100%;
   }
 }
 
-/* line 43, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+/* line 46, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
 .navbar-nav__link {
   font-size: 16px;
   font-weight: 700;
@@ -770,17 +779,30 @@ h4 {
   margin: 0 5px;
 }
 
-/* line 50, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+/* line 53, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
 nav.navbar.shrink {
-  padding: 2px 0;
+  padding: 0;
   min-height: 35px;
 }
 
-/* line 57, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+/* line 60, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
 nav.navbar {
-  padding: 10px 0;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+
+@media (min-width: 1200px) {
+  /* line 60, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+  nav.navbar {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 60, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_nav.scss */
+  nav.navbar {
+    padding: 20px 0;
+  }
 }
 
 /* line 1, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_footer.scss */

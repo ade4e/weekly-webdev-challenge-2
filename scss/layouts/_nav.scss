@@ -9,7 +9,6 @@
   font-family: $logo-font;
   font-size: 2.5rem;
   color: #000 !important;
-  margin-left: 10px;
 }
 
 .navbar-toggle {
@@ -18,6 +17,10 @@
 }
 @media (min-width: 768px) {
   .navbar-nav > li > a {
+    @include respond-to("small") {
+
+      padding-right: 0;
+    }
     /* (80px - line-height of 27px) / 2 = 26.5px */
     margin-top: 20px;
     margin-bottom: 10px;
@@ -48,14 +51,21 @@
 }
 
 nav.navbar.shrink {
-  padding: 2px 0;
+  padding: 0;
   min-height: 35px;
 
   .navbar-toggle {}
 }
 
 nav.navbar {
-  padding: 10px 0;
+  @include respond-to("large") {
+ padding: 30px 0;
+}
+  @include respond-to("medium"){
+ padding: 20px 0;
+}
+
+
   // Animation
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
