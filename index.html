@@ -251,25 +251,6 @@
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
   <script>
-    $("#navbar ul li a[href^='#']").on('click', function(e) {
-
-      // prevent default anchor click behavior
-      e.preventDefault();
-
-      // animate
-      $('html, body').animate({
-        scrollTop: $(this.hash).offset().top - 80
-      }, 500, function() {
-
-        // when done, add hash to url
-        // (default click behaviour)
-        window.location.hash = this.hash;
-      });
-
-    });
-
-  </script>
-  <script>
     $(document).on('click', 'a[href^="#"]', function(event) {
       event.preventDefault();
 
@@ -278,19 +259,16 @@
       }, 400);
     });
 
-  </script>
-  <script>
     $(window).scroll(function() {
       if ($(document).scrollTop() > 50) {
         $('nav').addClass('shrink');
-        $('nav').removeClass('navbar-logo');
       } else {
         $('nav').removeClass('shrink');
-        $('nav').addClass('navbar-logo');
       }
     });
 
   </script>
+
 </body>
 
 </html>
