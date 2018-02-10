@@ -1116,7 +1116,7 @@ textarea {
   .gallery .gallery__item {
     max-width: 100%;
   }
-  /* line 15, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_gallery.scss */
+  /* line 16, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_gallery.scss */
   .gallery .gallery__item .img-responsive {
     width: 90%;
     height: auto;
@@ -1124,7 +1124,7 @@ textarea {
   }
 }
 
-/* line 22, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_gallery.scss */
+/* line 23, C:/Users/Adam/Desktop/weekly challenge/weekly-webdev-challenge-2/scss/layouts/_gallery.scss */
 .gallery .gallery__item .img-responsive {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
 }
